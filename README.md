@@ -11,6 +11,7 @@ Tesla UI Clone created using Tailwind CSS
 ```sh
 npm i
 npm i -D tailwindcss postcss autoprefixer
+npx tailwindcss -o ./src/build.css --minify 
 
 ```
 
