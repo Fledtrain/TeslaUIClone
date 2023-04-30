@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a Tesla UI Clone Using TaildwindCSS">
+    <link rel="canonical" href="http://127.0.0.1:5500/src/index.html">
+    <meta name="theme-color" content="#727271">
+    <title>Tesla UI Clone</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- Model 3 Section -->
+    <div
+      class=" relative h-[35rem] lg:h-screen bg-cover bg-[url('https://www.forbes.com/wheels/wp-content/uploads/2022/01/2022_Tesla_Model3_SEO.png')]"
+    >
+      <!-- Header Full Section -->
+      <header class="pt-5 flex justify-between font-bold items-center">
+        <!-- Logo Section -->
+        <div class="ml-8">
+          <a href="#" aria-label="Home page Logo" >
+            <svg
+              class="w-32 cursor-pointer"
+              viewBox="0 0 342 35"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+        </div>
+        <!-- Menu Section -->
+        <div class="hidden xl:inline ">
+          <ul class="flex space-x-2 text-sm">
+            <li
+              class="py-1 px-3 hover:bg-slate-200 hover:rounded-md cursor-pointer"
+            >
+              Model S
+            </li>
+            <li
+              class="py-1 px-3 hover:bg-slate-200 hover:rounded-md cursor-pointer"
+            >
+              Model 3
+            </li>
+            <li
+              class="py-1 px-3 hover:bg-slate-200 hover:rounded-md cursor-pointer"
+            >
+              Model X
+            </li>
+            <li
+              class="py-1 px-3 hover:bg-slate-200 hover:rounded-md cursor-pointer"
+            >
+              Model Y
+            </li>
+            <li
+              class="py-1 px-3 hover:bg-slate-200 hover:rounded-md cursor-pointer"
+            >
+              Solar Roofs
+            </li>
+            <li
+              class="py-1 px-3 hover:bg-slate-200 hover:rounded-md cursor-pointer"
+            >
+              Solar Panels
+            </li>
+            <li
+              class="py-1 px-3 hover:bg-slate-200 hover:rounded-md cursor-pointer"
+            >
+              PowerWalls
+            </li>
+          </ul>
+        </div>
+        <!-- End of Menu Section -->
+        <!-- Right Menu Section -->
+        <div class="">
+          <ul class="flex space-x-4 mr-2 text-sm">
+            <li
+              class="cursor-pointer hover:rounded-md hover:bg-slate-200 py-1 px-3"
+            >
+              Shop
+            </li>
+            <li
+              class="cursor-pointer hover:rounded-md hover:bg-slate-200 py-1 px-3"
+            >
+              Account
+            </li>
+            <li
+              class="cursor-pointer hover:rounded-md hover:bg-slate-200 py-1 px-3"
+            >
+              Menu
+            </li>
+          </ul>
+        </div>
+        <!-- End of Right Menu Section -->
+        <!-- Section Title -->
+        <section
+          class="flex flex-col absolute top-20 left-[50%] translate-x-[-50%]"
+        >
+          <h1 class="text-[40px] m-auto font-bold">Model 3</h1>
+
+          <p
+            class="whitespace-nowrap pt-1 text-[16px] text-[#5c5d61] lg:text-lg lg:font-extrabold"
+          >
+            Order Online for
+            <span
+              class="underline underline-offset-4 hover:decoration-2 cursor-pointer"
+            >
+              Touchless Delivery
+            </span>
+          </p>
+        </section>
+        <!-- End of Section Title -->
+        <!-- Order Buttons -->
+        <div
+          class="md:space-x-7 absolute bottom-[80px] left-[50%] translate-x-[-50%] flex flex-col md:flex-row text-sm"
+        >
+          <button
+            class="bg-gray-700 w-80 text-white rounded-sm py-2 h-10 md:w-60"
+          >
+            Custom Order
+          </button>
+          <button
+            class="mt-2 bg-slate-200 w-80 text-gray-900 rounded-sm py-2 h-10 md:mt-0 md:ml-4 md:w-60"
+          >
+            Demo Drive
+          </button>
+        </div>
+        <!-- End of Order Buttons -->
+        <!-- Down Arrow -->
+        <div
+          class="absolute left-[50%] translate-x-[-50%] bottom-3"
+          id="pointer"
+        >
+          <a href="#model-y" class="transition duration-150 ease-in-out scroll-smooth" aria-label="Model Y Section Button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-7 h-7 animate-bounce cursor-pointer text-white"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </a>
+        </div>
+        <!-- End of Down Arrow -->
+      </header>
+    </div>
+    <!-- End of Model 3 Section -->
+
+    <!-- Model Y Section -->
+    <div
+      id="model-y"
+      class="relative 2xl:h-[80rem] h-screen bg-cover bg-[url('https://editorial.pxcrush.net/carsales/general/editorial/2023-tesla-model-y-performance-04-qkd4.jpg?width=1024&height=683')]"
+    >
+      <!-- Header Full Section -->
+      <header class="pt-5 flex justify-between font-bold items-center">
+        <!-- Section Title -->
+        <section
+          class="flex flex-col absolute top-20 left-[50%] translate-x-[-50%]"
+        >
+          <h1 class="text-[40px] m-auto font-bold">Model Y</h1>
+
+          <p class="whitespace-nowrap pt-1 text-[16px] text-[#5c5d61]">
+            Order Online for
+            <span
+              class="underline underline-offset-4 hover:decoration-2 cursor-pointer"
+            >
+              Touchless Delivery
+            </span>
+          </p>
+        </section>
+        <!-- End of Section Title -->
+        <!-- Order Buttons -->
+        <div
+          class="md:space-x-7 absolute bottom-[80px] left-[50%] translate-x-[-50%] flex flex-col md:flex-row text-sm"
+        >
+          <button
+            class="bg-gray-700 w-80 text-white rounded-sm py-2 h-10 md:w-60"
+          >
+            Custom Order
+          </button>
+          <button
+            class="mt-2 bg-slate-200 w-80 text-gray-900 rounded-sm py-2 h-10 md:mt-0 md:ml-4 md:w-60"
+          >
+            Demo Drive
+          </button>
+        </div>
+      </header>
+    </div>
+    <!-- End of Model Y Section -->
+    <!-- Accessories Section -->
+    <div
+      class="relative sm:h-[40rem] lg:h-[50rem] xl:h-[64rem] 2xl:h-[100rem] h-screen bg-cover bg-[url('https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/CHARGING_ADAPTERS/Gen3WC.jpg')]"
+    >
+      <!-- Header Full Section -->
+      <header class="pt-5 flex justify-between font-bold items-center">
+        <!-- Section Title -->
+        <section
+          class="flex flex-col absolute top-20 left-[50%] translate-x-[-50%]"
+        >
+          <h1 class="text-[40px] m-auto font-bold">Accessories</h1>
+        </section>
+        <!-- End of Section Title -->
+        <!-- Order Buttons -->
+        <div
+          class="md:space-x-7 absolute bottom-[80px] left-[50%] translate-x-[-50%] flex flex-col md:flex-row text-sm"
+        >
+          <button
+            class="bg-gray-900 w-80 text-white rounded-md py-2 h-10 md:w-[17rem]"
+          >
+            Shop Now
+          </button>
+        </div>
+      </header>
+    </div>
+    <!-- End of Accessories Section -->
+    <!-- Footer Section -->
+    <footer class="flex pb-10 pt-5 justify-center items-center">
+      <ul
+        class="flex flex-col md:flex-row justify-center items-center md:space-x-5 text-[12px] text-gray-600"
+      >
+        <li class="link">Tesla Clone &copy; 2023</li>
+        <li class="link">Privacy & legal</li>
+        <li class="link">Vehicle Recalls</li>
+        <li class="link">Contact</li>
+        <li class="link">Careers</li>
+        <li class="link hidden md:inline">News</li>
+        <li class="link hidden md:inline">Engage</li>
+        <li class="link">Locations</li>
+      </ul>
+    </footer>
+
+    <!-- End of Footer Section -->
+  </body>
+</html>
